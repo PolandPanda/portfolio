@@ -1,0 +1,80 @@
+.main {
+    height: 100vh;
+    background-color: $dark;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+   
+
+
+    &__title {
+        color: $light;
+        font-size: 1.2rem;
+        span {
+            display: block;
+            color: $green;
+        }
+    }
+    &__flame {
+        margin-top: 4.5rem;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        animation: move 500ms 200ms ease-in infinite alternate;
+        &__single {
+            position: absolute;
+            bottom: 0;
+            border-radius: 50% 0 50% 50%;
+            transform: rotate(-45deg) scale(1.5, 1.5);
+        }
+    }
+    &__svg {
+        position: absolute;
+        bottom:0% ;
+    }
+}
+
+.red {
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    background: red;
+    box-shadow: 0px 0px 35px 4px red;
+
+}
+
+.orange {
+    left: 12px;
+    width: 35px;
+    height: 35px;
+    background: orange;
+    box-shadow: 0px 0px 9px 4px orange;
+
+}
+
+
+
+
+.social {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    &__icon {
+        margin: .5rem auto;
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(-1deg);
+        transform: scaleY(1.006);
+    } 
+    100% {
+        transform: rotate(4deg);
+    }
+}
