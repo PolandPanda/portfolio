@@ -14,6 +14,11 @@ ul {
   list-style: none;
 }
 
+img {
+  margin: 0;
+  width: 100%;
+}
+
 .main {
   height: 100vh;
   background-color: #292929;
@@ -125,5 +130,27 @@ ul {
     -webkit-transform: rotate(4deg);
             transform: rotate(4deg);
   }
+}
+
+.project {
+  height: 100vh;
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.project__wrapper {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+}
+
+.list {
+  margin-top: 2rem;
+}
+
+.list__item {
+  margin: 1rem auto;
 }
 /*# sourceMappingURL=style.css.map */

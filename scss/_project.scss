@@ -1,0 +1,18 @@
+.project {
+    height: 100vh;
+    background-color: $light;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    &__wrapper {
+        height: 100%;
+        display: grid;
+    }
+}
+
+.list {
+    margin-top: 2rem;
+    &__item {
+        margin: 1rem auto;
+    }
+}
