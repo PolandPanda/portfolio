@@ -1,5 +1,5 @@
 .skills {
-    height: 100vh;
+    min-height: 100vh;
     background-color: $light;
     color: $dark;
     text-align: center;
@@ -10,8 +10,31 @@
         left: 0;
         margin-bottom: -1px;
     }
+    &__title {
+        margin-top: 1rem;
+    }
 }
 
-.test {
-    fill: $light;
+.knowledge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__item {
+        
+        margin: 1rem auto;
+            img {
+                height: 80px;
+            }
+            &:last-child {
+                margin-bottom: 5rem;
+            }
+    }
+}
+
+.subtitle {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: orange;
 }

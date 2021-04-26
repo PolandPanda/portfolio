@@ -23,6 +23,10 @@ h1 {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main {
   height: 100vh;
   background-color: #292929;
@@ -180,7 +184,7 @@ h1 {
 }
 
 .skills {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #fff;
   color: #292929;
   text-align: center;
@@ -194,7 +198,42 @@ h1 {
   margin-bottom: -1px;
 }
 
-.test {
-  fill: #fff;
+.skills__title {
+  margin-top: 1rem;
+}
+
+.knowledge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.knowledge__item {
+  margin: 1rem auto;
+}
+
+.knowledge__item img {
+  height: 80px;
+}
+
+.knowledge__item:last-child {
+  margin-bottom: 5rem;
+}
+
+.subtitle {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: orange;
 }
 /*# sourceMappingURL=style.css.map */
