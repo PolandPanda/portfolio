@@ -236,4 +236,12 @@ a {
   letter-spacing: 2px;
   color: orange;
 }
+
+.contact {
+  height: 100vh;
+}
+
+.contact__title {
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

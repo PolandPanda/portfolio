@@ -140,9 +140,32 @@
         <img src="./images/wave.svg" alt="wave" class="main__svg">
     </section>
     <section class="contact">
-        <h1>
+        <h1 class="contact__title">
             get in touch!
         </h1>
+        <form action="#" class="form" id="form">
+            <h1 class="form__title">
+                Sign in
+            </h1>
+            <div class="form__wrapp">
+                <p class="form__error" id="error-email">
+                </p>
+                <input type="text" class="form__input form__input-error" id="email">
+
+                <label for="#" class="form__label" name="email">
+                    Email
+                </label>
+            </div>
+            <div class="form__wrapp">
+                <p class="form__error" id="error-password">
+                </p>
+                <input type="password" class="form__input" name="password" id="password">
+                <label for="#" class="form__label">
+                    Password
+                </label>
+            </div>
+            <button class="form__btn" type="submit"> Sign in</button>
+        </form>
     </section>
 </body>
 
