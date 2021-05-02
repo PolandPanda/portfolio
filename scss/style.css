@@ -214,6 +214,18 @@ a {
   margin: 1.5rem auto;
 }
 
+@media (min-width: 768px) {
+  .list {
+    margin: 2rem auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+  }
+}
+
 .skills {
   min-height: 100vh;
   background-color: #fff;
