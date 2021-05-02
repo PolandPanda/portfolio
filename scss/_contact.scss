@@ -68,7 +68,9 @@
             box-shadow: 0 2px 16px rgb(6, 80, 141);
         }
     }
-
+    @media (min-width:768px) {
+        width: 25%;
+    }
 }
 
 .form__input:focus + .form__label {
