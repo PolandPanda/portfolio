@@ -14,6 +14,9 @@
             display: block;
             color: $green;
         }
+        @media (min-width: 768px) {
+            font-size: 1.5rem;
+        }
     }
     &__flame {
         margin-top: 4.5rem;
@@ -27,11 +30,21 @@
             border-radius: 50% 0 50% 50%;
             transform: rotate(-45deg) scale(1.5, 1.5);
         }
+        @media (min-width: 768px) {
+            margin: 0;
+        }
     }
     &__svg {
         position: absolute;
         bottom:0%;
         margin-bottom: -1px;
+
+    }
+    @media (min-width: 768px) {
+        flex-direction: row;
+        position: relative;
+        top: -4rem;
+        justify-content: space-around;
     }
 }
 
@@ -60,6 +73,9 @@
     right: 1.5rem;
     &__icon {
         margin: .5rem auto;
+    }
+    @media (min-width: 768px) {
+        bottom: 3.5rem;
     }
 }
 
