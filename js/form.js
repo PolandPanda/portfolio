@@ -37,3 +37,5 @@ message.addEventListener("change", (e) => {
         messageLabel.classList.add("inactive");
     }
 })
+
+// Send email

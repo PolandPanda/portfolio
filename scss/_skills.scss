@@ -23,23 +23,27 @@
     justify-content: center;
     align-items: center;
     &__item {
-        
+        align-self: center;
         margin: 1rem auto;
             img {
-                height: 80px;
+                height: 60px;
                 @media (min-width:768px) {
                     height: 60px;
                 }
             }
             &:last-child {
                 margin-bottom: 5rem;
+    @media (min-width:768px) {
+        margin-bottom: auto;
+    }
             }
     }
     @media (min-width:768px) {
         margin-top: 2rem;
         display: grid;
+        grid-gap: 2px;
         grid-template-columns: repeat(4,200px);
-        grid-template-rows: repeat(2,1fr );
+        grid-template-rows: repeat(2,auto);
     }
 }
 

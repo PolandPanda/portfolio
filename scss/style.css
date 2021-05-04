@@ -262,11 +262,14 @@ a {
 }
 
 .knowledge__item {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   margin: 1rem auto;
 }
 
 .knowledge__item img {
-  height: 80px;
+  height: 60px;
 }
 
 @media (min-width: 768px) {
@@ -280,14 +283,21 @@ a {
 }
 
 @media (min-width: 768px) {
+  .knowledge__item:last-child {
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 768px) {
   .knowledge {
     margin-top: 2rem;
     display: -ms-grid;
     display: grid;
+    grid-gap: 2px;
     -ms-grid-columns: (200px)[4];
         grid-template-columns: repeat(4, 200px);
-    -ms-grid-rows: (1fr)[2];
-        grid-template-rows: repeat(2, 1fr);
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
   }
 }
 
