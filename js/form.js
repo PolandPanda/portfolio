@@ -4,9 +4,10 @@ const company = document.getElementById("company");
 const companyLabel = document.getElementById("company-label");
 const message = document.getElementById("message");
 const messageLabel = document.getElementById("message-label");
+const btn = document.getElementById("sendEmail");
 
 // email animation
-email.addEventListener("change", (e) => {
+email.addEventListener("submit", (e) => {
     // e.preventDefault();
     if (email.nodeValue !== "") {
         emailLabel.classList.add("active");
@@ -39,3 +40,18 @@ message.addEventListener("change", (e) => {
 })
 
 // Send email
+
+btn.addEventListener("click", () => {
+    Email.send({
+        Host: "smtp.mailtrap.io",
+        Username: "723e70f6cb9a14",
+        Password: "e37cc7ca3beb93",
+        To: 'mateusz.mamica18@gmail.com',
+        From: email.value,
+        Subject: `${company.value} send practice offert for u!    `,
+        Body: message.value,
+    })
+        .then(function (message) {
+            alert("mail sent successfully");
+        });
+})
