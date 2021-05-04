@@ -7,9 +7,10 @@ Technology stack
 * HTML
 * SCSS
 * Javascript 
-* SVG [ animation ] 
+* SVG 
 * Figma (For design)
-* GSAP
+* GSAP [ SOON ]
+* SMTP -> email
 
 About
 ======
