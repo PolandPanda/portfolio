@@ -194,6 +194,13 @@ a {
           align-items: center;
 }
 
+.project__work {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+  border: 4px solid #8DF50B;
+}
+
 .project__svg {
   position: absolute;
   bottom: 0%;
@@ -227,8 +234,35 @@ a {
 }
 
 .active {
-  background-color: orange;
+  background-color: #8DF50B;
   padding: .5rem;
+}
+
+.open {
+  background-color: #8DF50B;
+  padding: 1rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.open__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 768px) {
+  .open__list {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+.open__list__item img {
+  width: 50%;
 }
 
 .skills {
@@ -299,8 +333,8 @@ a {
     display: -ms-grid;
     display: grid;
     grid-gap: 2px;
-    -ms-grid-columns: (200px)[4];
-        grid-template-columns: repeat(4, 200px);
+    -ms-grid-columns: (220px)[4];
+        grid-template-columns: repeat(4, 220px);
     -ms-grid-rows: (auto)[2];
         grid-template-rows: repeat(2, auto);
   }
@@ -311,6 +345,13 @@ a {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: orange;
+}
+
+.title {
+  color: #8DF50B;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .contact {
