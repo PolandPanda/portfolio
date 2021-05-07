@@ -35,9 +35,10 @@
         }
     }
     &__svg {
+        // background-color: red;
+        // height: 100%;
         position: absolute;
         bottom:0%;
-        margin-bottom: -1px;
 
     }
     @media (min-width: 768px) {

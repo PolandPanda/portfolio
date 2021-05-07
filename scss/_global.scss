@@ -5,6 +5,7 @@ $font: "Poppins", 'sans-serif';
 $dark: #292929;
 $light: #fff;
 $green: #8DF50B;
+$orange: orange;
 //reset
 
 * {
@@ -15,6 +16,7 @@ $green: #8DF50B;
 
 body {
     font-family: $font;
+    overflow-x: hidden;
 }
 
 

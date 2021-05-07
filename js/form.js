@@ -51,7 +51,7 @@ btn.addEventListener("click", () => {
         Subject: `${company.value} send practice offert for u!    `,
         Body: message.value,
     })
-        .then(function (message) {
+        .then(function () {
             alert("mail sent successfully");
         });
 })
