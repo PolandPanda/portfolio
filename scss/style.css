@@ -30,7 +30,7 @@ a {
 
 .main {
   height: 100vh;
-  background-color: #292929;
+  background-color: #0d1321;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,7 +54,7 @@ a {
 
 .main__title span {
   display: block;
-  color: #8DF50B;
+  color: #748cab;
 }
 
 @media (min-width: 768px) {
@@ -126,6 +126,7 @@ a {
   position: absolute;
   bottom: 1.5rem;
   right: 1.5rem;
+  cursor: pointer;
 }
 
 .social__icon {
@@ -173,7 +174,7 @@ a {
 }
 
 .project {
-  background-color: #292929;
+  background-color: #0d1321;
   color: #fff;
   min-height: 100vh;
   text-align: center;
@@ -198,7 +199,6 @@ a {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
-  border: 4px solid #8DF50B;
 }
 
 .project__svg {
@@ -229,17 +229,7 @@ a {
   margin: auto 1rem;
 }
 
-.bar__item a {
-  color: #292929;
-}
-
-.active {
-  background-color: #8DF50B;
-  padding: .5rem;
-}
-
 .open {
-  background-color: #8DF50B;
   padding: 1rem;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -268,7 +258,7 @@ a {
 .skills {
   min-height: 100vh;
   background-color: #fff;
-  color: #292929;
+  color: #3e5c76;
   text-align: center;
   position: relative;
 }
@@ -344,11 +334,11 @@ a {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: orange;
+  color: #3e5c76;
 }
 
 .title {
-  color: #8DF50B;
+  color: #748cab;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1px;
@@ -378,7 +368,7 @@ a {
   margin: auto;
   border-radius: 2rem;
   background-color: #fff;
-  color: #292929;
+  color: #0d1321;
 }
 
 .form__title {
@@ -407,19 +397,19 @@ a {
 }
 
 .form__input:focus {
-  border-color: #8DF50B;
+  border-color: #748cab;
 }
 
 .form__label {
   position: absolute;
   top: .7rem;
   left: 1rem;
-  color: #292929;
+  color: #0d1321;
   padding: 0 .25rem;
   background-color: #fff;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-  color: orange;
+  color: #3e5c76;
   font-weight: 500;
   font-size: .8rem;
 }
