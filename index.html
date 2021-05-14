@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!-- main section  -->
     <section class="main">
         <h1 class="main__title">
             Hi. I am Matthew,
@@ -26,7 +27,7 @@
             <div class="main__flame__single red"></div>
             <div class="main__flame__single orange"></div>
         </div>
-        <ul class="social">
+        <!-- <ul class="social">
             <li class="social__icon">
                 <a href="#">
                     <img src="./images/Vector-4.svg" alt="ig">
@@ -42,15 +43,116 @@
                     <img src="./images/Vector-3.svg" alt="in">
                 </a>
             </li>
-        </ul>
-        <img src="./images/wave.svg" alt="wave" class="main__svg">
+        </ul> -->
+
+        <!-- svg code -->
+        <div class="main__svg">
+
+            <div class="svg-layer">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
     </section>
 
-    <section class="contact">
+    <!-- PROJECT  -->
 
+    <section class="present">
+        <h1 class="present__title">
+            All about me
+        </h1>
+        <div class="tech">
+            <h2 class="tech__title">
+                What do I use to code?
+            </h2>
+            <ul class="list">
+                <li class="list__item">
+                    <a href="#">
+                        html
+
+                    </a>
+                    <img class="list__item__img" src="./images/html5.svg" alt="html">
+                </li>
+                <li class="list__item">
+                    <a href="#">
+                        scss
+                    </a>
+                    <img class="list__item__img" src="./images/sass.svg" alt="html">
+                </li>
+                <li class="list__item">
+                    <a href="#">
+                        javascript
+                    </a>
+                    <img class="list__item__img" src="./images/javascript.svg" alt="html">
+
+                </li>
+                <li class="list__item">
+                    <a href="#">
+                        react
+                    </a>
+                    <img class="list__item__img" src="./images/react.svg" alt="html">
+                </li>
+                <li class="list__item">
+                    <a href="#">
+                        git
+                    </a>
+                    <img class="list__item__img" src="./images/git.svg" alt="html">
+                </li>
+                <li class="list__item">
+                    <a href="#">
+                        wordpress
+                    </a>
+                    <img class="list__item__img" src="./images/wordpress.svg" alt="html">
+                </li>
+            </ul>
+        </div>
+        <div class="project">
+            <h2 class="tech__title--project">
+                See my projects
+
+            </h2>
+            <div class="work">
+
+                <div class="work__item">
+                    <img src="./images/project.jpg" alt="Card">
+                </div>
+
+                <div class="work__item">
+                    <img src="./images/project.jpg" alt="Card">
+                </div>
+                <div class="work__item">
+                    <img src="./images/project.jpg" alt="Card">
+                </div>
+                <div class="work__item">
+                    <img src="./images/project.jpg" alt="Card">
+                </div>
+
+            </div>
+        </div>
+        <div class="present__svg">
+            <div class="svg-layer">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- CONTACT  -->
+
+    <section class="contact">
         <form action="#" name="form" class="form" id="form">
             <h1 class="form__title">
-                Get in touch!
+                Let's talk!
             </h1>
             <div class="form__wrapp">
 
@@ -68,13 +170,14 @@
             <div class="form__wrapp">
                 <textarea name="" id="message" cols="30" rows="20" class="form__input text"></textarea>
                 </textarea>
-                <!-- <input type="text"> -->
+                <input type="text">
                 <label for="#" class="form__label" id="message-label">
                     Message
                 </label>
             </div>
             <button class="form__btn" id="sendEmail" type="submit">Send</button>
         </form>
+
         <footer class="copy">
             <p class="copy__text">
                 &copy; All rights reserved 2021

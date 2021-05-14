@@ -1,6 +1,7 @@
 .contact {
     position: relative;
     height: 100vh;
+    background-color: $dark;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,13 +15,14 @@
     width: 75%;
     margin: auto;
     border-radius: 2rem;
-    background-color: $light;
-    color: $dark;
+    // background-color: $light;
+    color: $yellow;
 
     &__title {
         font-weight: bold;
         margin-bottom: 3rem;
         text-align: center;
+
         
     }
     &__wrapp {
@@ -51,9 +53,8 @@
         left: 1rem;
         color: $dark;
         padding:0 .25rem;
-        background-color: $light;
         transition: .3s ease-in-out;
-        color:$orange;
+        color:$dark;
         font-weight: 500;
         font-size: .8rem;
     }
@@ -75,7 +76,7 @@
 }
 
 .form__input:focus + .form__label {
-    transform: translateY(-100%);
+    transform: translateX(-150%);
     z-index: 10;
 }
 

@@ -3,6 +3,7 @@
 
 $font: "Poppins", 'sans-serif';
 $orange: #3e5c76;
+$yellow: #fed136;
 $light: #fff;
 $green: #748cab;
 $dark: #0d1321;
@@ -16,7 +17,7 @@ $dark: #0d1321;
 
 body {
     font-family: $font;
-    overflow-x: hidden;
+    // overflow-x: hidden;
 }
 
 
@@ -35,4 +36,7 @@ h1 {
 
 a {
     text-decoration: none;
+}
+.svg-layer .shape-fill {
+    fill: #0D1321;
 }
