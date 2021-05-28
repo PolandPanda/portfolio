@@ -1,13 +1,20 @@
+// email
 const email = document.getElementById("email");
 const emailLabel = document.getElementById("email-label");
+
+// company
 const company = document.getElementById("company");
 const companyLabel = document.getElementById("company-label");
+
+// message 
 const message = document.getElementById("message");
 const messageLabel = document.getElementById("message-label");
+
+// submit
 const btn = document.getElementById("sendEmail");
 
 // email animation
-email.addEventListener("submit", (e) => {
+email.addEventListener("focus", (e) => {
     // e.preventDefault();
     if (email.nodeValue !== "") {
         emailLabel.classList.add("active");
@@ -18,7 +25,7 @@ email.addEventListener("submit", (e) => {
 })
 
 //company
-company.addEventListener("change", (e) => {
+company.addEventListener("focus", (e) => {
     // e.preventDefault();
     if (email.nodeValue !== "") {
         companyLabel.classList.add("active");
@@ -29,7 +36,7 @@ company.addEventListener("change", (e) => {
 })
 
 // message
-message.addEventListener("change", (e) => {
+message.addEventListener("focus", (e) => {
     e.preventDefault();
     if (message.nodeValue !== "") {
         messageLabel.classList.add("active");

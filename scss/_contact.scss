@@ -85,12 +85,12 @@
 }
 
 .active {
-    transform: translateY(-100%);
+    transform: translateX(-125%);
     z-index: 10;
 }
 
 .inactive {
-    transform: translateY(-100%);
+    transform: translateX(100%);
 }
 
 .copy {

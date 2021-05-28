@@ -469,14 +469,14 @@ a {
 }
 
 .active {
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  -webkit-transform: translateX(-125%);
+          transform: translateX(-125%);
   z-index: 10;
 }
 
 .inactive {
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
 }
 
 .copy {
