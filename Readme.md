@@ -21,7 +21,7 @@ Installing
 ======
 
 ```
-1. Download or clone repo → gh repo clone PolandPanda/portfolio 
+1. Download or clone repo → gh repo clone h4rdpl/portfolio 
 ```
 
 ```
@@ -30,7 +30,7 @@ Installing
 
 Or
 ```
-Open live link: https://polandpanda.github.io/portfolio/ → [soon this link will be avaliable]
+Copy&Open live link: https://h4rdpl.github.io/portfolio/
 ```
 
 Design
