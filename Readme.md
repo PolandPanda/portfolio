@@ -36,7 +36,7 @@ Copy&Open live link: https://h4rdpl.github.io/portfolio/
 Design
 ======
 
-[ soon ]
+![alt link](https://github.com/h4rdPL/portfolio/blob/master/design.png)
 
 Licence
 ======
